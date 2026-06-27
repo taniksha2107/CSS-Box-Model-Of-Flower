@@ -1,0 +1,136 @@
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:url("flowerimages/backflower.jpg") no-repeat center center fixed;
+    background-size:cover;
+}
+
+h2{
+    text-align:center;
+    color:rgb(14, 11, 11);
+    font-size:42px;
+    padding:30px;
+    text-shadow:2px 2px 10px rgb(52, 49, 49);
+}
+
+.container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    padding:30px;
+}
+
+.card{
+    width:330px;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 15px 35px rgba(0,0,0,.5);
+}
+
+.card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    transition:.5s;
+}
+
+.card:hover img{
+    transform:scale(1.08);
+}
+
+.content{
+    padding:20px;
+}
+
+.content h1{
+    text-align:center;
+    margin-bottom:15px;
+}
+
+.content h3,
+.content h4,
+.content p{
+    margin-bottom:12px;
+    line-height:1.6;
+}
+
+button{
+    display:block;
+    margin:20px auto;
+    padding:12px 25px;
+    border:none;
+    border-radius:30px;
+    background:#ff4081;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#d81b60;
+    transform:scale(1.05);
+}
+
+/* Individual Cards */
+
+.lotus{
+    background:linear-gradient(135deg,#ffd6ec,#ffffff);
+    border:4px dotted deeppink;
+}
+
+.lotus h1{
+    color:brown;
+}
+
+.lily{
+    background:linear-gradient(135deg,#dff6ff,#ffffff);
+    border:4px solid royalblue;
+}
+
+.lily h1{
+    color:royalblue;
+}
+
+.rose{
+    background:linear-gradient(135deg,#ffd5d5,#ffffff);
+    border:4px double crimson;
+}
+
+.rose h1{
+    color:crimson;
+}
+
+footer{
+    text-align:center;
+    color:white;
+    background:rgba(0,0,0,.5);
+    padding:18px;
+    margin-top:30px;
+}
+
+@media(max-width:768px){
+
+.card{
+    width:90%;
+}
+
+h2{
+    font-size:32px;
+}
+
+}
