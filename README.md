@@ -1,9 +1,7 @@
 # CSS Box Model of Flowers
-
 This is a simple HTML and CSS project demonstrating the CSS Box Model using flower cards.
 
 ## Features
-
 - Responsive Design
 - CSS Flexbox
 - Hover Effects
@@ -13,16 +11,13 @@ This is a simple HTML and CSS project demonstrating the CSS Box Model using flow
 - Modern UI
 
 ## Technologies Used
-
 - HTML
 - CSS
 
 ## Screenshot
-
-![Project Screenshot](screenshot.png)
+![Project Screenshot](screenshot1.png)
 
 ## Project 
-
 CSS-Box-Model-Of-Flower
 |__index.html
 |__style.css
