@@ -30,6 +30,8 @@ CSS-Box-Model-Of-Flower
     |__backflower.jpg
 |__screenshot1.png
 ```
-    
+## Live
+  View the project here:
+        https://taniksha2107.github.io/CSS-Box-Model-Of-Flower/    
 ## Author
 Taniksha R. Nagpure
