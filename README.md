@@ -17,7 +17,7 @@ This is a simple HTML and CSS project demonstrating the CSS Box Model using flow
 ## Screenshot
 ![Project Screenshot](screenshot1.png)
 
-## Project 
+## Project Structure
 CSS-Box-Model-Of-Flower
 |__index.html
 |__style.css
