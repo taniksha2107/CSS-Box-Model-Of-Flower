@@ -18,7 +18,7 @@ This is a simple HTML and CSS project demonstrating the CSS Box Model using flow
 ![Project Screenshot](screenshot1.png)
 
 ## Project Structure
-'''
+```
 CSS-Box-Model-Of-Flower
 |__index.html
 |__style.css
@@ -28,7 +28,7 @@ CSS-Box-Model-Of-Flower
     |__lotus.png
     |__lily.png
     |__backflower.jpg
-'''
+```
     
 ## Author
 Taniksha R. Nagpure
